@@ -1,2 +1,2 @@
-const API_ROOT = `http://localhost:4000`
+const API_ROOT = `http://music-app-gridfs-streaming-server.onrender.com`
 export default API_ROOT
