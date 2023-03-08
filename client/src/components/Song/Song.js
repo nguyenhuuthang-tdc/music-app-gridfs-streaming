@@ -11,7 +11,7 @@ export default function Song(props) {
         <>
             <div className={ props.currentId === props.id ? "song active" : "song"}>
                 <div className='select-range' onClick={() => props.handleSelectSong(props.id)}>
-                    <div className="thumb" style={{ backgroundImage: `url('http://${props.image_url}')` }}></div>
+                    <div className="thumb" style={{ backgroundImage: `url('https://${props.image_url}')` }}></div>
                     <div className="body">
                         <h3 className="title">{props.name}</h3>
                         <p className="author">{props.singer}</p>

@@ -38,7 +38,7 @@ export default function CurrentSong(props) {
                         <motion.div
                             animate={{rotate: props.isPlaying ? 360 : 0}}
                             onClick={() => setRotate(!rotate)}
-                            className="cd-thumb" style={{ backgroundImage: `url('http://${props.currentSong.image_url}')` }}>
+                            className="cd-thumb" style={{ backgroundImage: `url('https://${props.currentSong.image_url}')` }}>
 
                         </motion.div>
                     </div>

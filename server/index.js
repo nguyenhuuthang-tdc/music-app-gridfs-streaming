@@ -153,5 +153,5 @@ app.post('/upload', upload.fields([{name: 'imageFile'}, {name: 'songFile'}]), (r
 })
 
 app.listen(port, () => {
-    console.log(`Server start at http://localhost:${port}/`);
+    console.log(`Server start at https://localhost:${port}/`);
 })

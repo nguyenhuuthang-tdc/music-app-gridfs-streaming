@@ -110,7 +110,7 @@ export default function ControlBar(props) {
                 <>
                     <audio 
                         ref={audioPlayer} 
-                        src={`http://${props.currentSong.song_url}`} 
+                        src={`https://${props.currentSong.song_url}`} 
                         onTimeUpdate={onPlaying}
                         onEnded={onEnded}
                         >  
